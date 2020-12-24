@@ -1,19 +1,21 @@
 import React, { Component } from "react";
 import { render } from "react-dom";
-// import HomePage from "./HomePage";
+import HomePage from "./HomePage";
 
 export default class App extends Component {
   constructor(props) {
     super(props);
+    this.state = {
+
+    }
   }
 
   render() {
-    // return (
-    //   <div>
-    //     <HomePage />
-    //   </div>
-    // );
-    return <h1>testing react code</h1>;
+    return (
+      <div>
+        <HomePage />
+      </div>
+    );
   }
 }
 
