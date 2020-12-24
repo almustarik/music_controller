@@ -6,6 +6,7 @@ import {BrowserRouter as Router,
     Route, 
     Link, 
     Redirect} from "react-router-dom";
+import Room from "./Room";
 
 
 export default class HomePage extends Component {
@@ -22,6 +23,7 @@ export default class HomePage extends Component {
                 </Route>
                 <Route path="/join" component={RoomJoinPage} />
                 <Route path="/create" component={CreateRoomPage} />
+                <Route path="/room/:roomCode" component={Room} />
             </Switch>
         </Router>)
     }
