@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Button, Grid, Typography } from "@material-ui/core";
 
 export default class Room extends Component {
   constructor(props) {
